@@ -1,0 +1,47 @@
+.temp-container {
+  width: 360px;
+  margin: 60px auto;
+  padding: 25px;
+  border-radius: 16px;
+  background-color: #fdfdfd;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  font-weight: 500;
+}
+
+input {
+  width: 160px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  text-align: right;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+.info {
+  margin-top: 10px;
+  color: #007bff;
+  font-weight: 600;
+}

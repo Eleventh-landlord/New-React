@@ -1,0 +1,78 @@
+/* src/App.css */
+
+/* Global styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #222;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #008751; /* Nigerian green */
+  color: white;
+  padding: 30px 0;
+  border-radius: 12px;
+}
+
+.header h1 {
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* Skills Section */
+.skills {
+  margin: 30px 0;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background-color: #e6ffe6;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* Location */
+.location {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-left: 5px solid #008751;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  background-color: #008751;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+  
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0c9a58ff;
+  padding: 20px;
+}
+
+.container {
+  background-color: rgba(24, 141, 32, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}

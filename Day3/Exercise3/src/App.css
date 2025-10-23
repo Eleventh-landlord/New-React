@@ -1,0 +1,65 @@
+.nametag-container {
+  width: 320px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1em;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+.name-tag {
+  background-color: #ff4757;
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.name-tag h3 {
+  font-size: 1em;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.name-tag h1 {
+  font-size: 1.5em;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.name-tag p {
+  margin: 3px 0;
+  font-size: 0.9em;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,78 @@
+.cart-container {
+  width: 380px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.cart-item {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.cart-item p {
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.actions button {
+  background-color: #007bff;
+  color: white;
+}
+
+.remove {
+  background-color: #ff4b5c;
+}
+
+.clear {
+  margin-top: 10px;
+  background-color: #333;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+}
+
+.total {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #007bff;
+}
+
+.empty {
+  color: #666;
+  font-style: italic;
+}

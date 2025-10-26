@@ -1,0 +1,72 @@
+.catalog-container {
+  text-align: center;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.filter-buttons {
+  margin-bottom: 15px;
+}
+
+.filter-buttons button {
+  margin: 4px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #272121;
+  cursor: pointer;
+}
+
+.filter-buttons .active {
+  background-color: #222;
+  color: #fff;
+}
+
+.sort-section {
+  margin: 10px 0 20px;
+}
+
+.sort-section select {
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.product-list li {
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.in-stock {
+  background-color: #e8ffe8;
+}
+
+.out-of-stock {
+  background-color: #ffe8e8;
+  opacity: 0.8;
+}
+
+.add-btn {
+  margin-top: 8px;
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.out-label {
+  color: crimson;
+  font-weight: bold;
+}

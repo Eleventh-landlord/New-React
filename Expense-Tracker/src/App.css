@@ -1,0 +1,43 @@
+.tracker-container {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.expense-form input,
+.expense-form select {
+  margin: 5px;
+  padding: 8px;
+}
+
+.expense-item {
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+}
+
+.filter-container button {
+  margin: 5px;
+  padding: 8px 12px;
+}
+
+.filter-container .active {
+  background-color: #1c1526;
+  color: white;
+}
+
+.stats {
+  background: #1c1526;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.expense-list {
+  margin-top: 20px;
+}

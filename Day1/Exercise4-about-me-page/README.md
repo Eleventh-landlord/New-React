@@ -15,3 +15,7 @@
 🎨 Add **Nigerian colors (green and white)** to your page design using CSS.
 
 ---
+
+![Image](https://github.com/user-attachments/assets/b3c0d1b8-8148-4c09-a211-8fa67f09aeeb)
+
+![Image](https://github.com/user-attachments/assets/dc75a952-4b6e-48f6-adb9-e1e2e682ea0e)
